@@ -20,19 +20,15 @@ export interface ShoppingAction extends Action {
 
 export class LoadShoppingAction implements ShoppingAction {
   readonly type = ShoppingActionTypes.LOAD_SHOPPING;
-  constructor(public payload: string) { }
 }
 
 export class LoadShoppingSuccessAction implements ShoppingAction {
   readonly type = ShoppingActionTypes.LOAD_SHOPPING_SUCCESS;
-
   constructor(public payload: Array<ShoppingItem>) { }
-
 }
 
 export class LoadShoppingFailureAction implements ShoppingAction {
   readonly type = ShoppingActionTypes.LOAD_SHOPPING_FAILURE;
-
   constructor(public payload: Error) { }
 }
 
@@ -43,13 +39,11 @@ export class DeleteItemAction implements ShoppingAction {
 
 export class DeleteItemSuccessAction implements ShoppingAction {
   readonly type = ShoppingActionTypes.DELETE_ITEM_SUCCESS;
-
   constructor(public payload: string) { }
 }
 
 export class DeleteItemFailureAction implements ShoppingAction {
   readonly type = ShoppingActionTypes.DELETE_ITEM_FAILURE;
-
   constructor(public payload: Error) { }
 }
 
@@ -60,13 +54,11 @@ export class AddItemAction implements ShoppingAction {
 
 export class AddItemSuccessAction implements ShoppingAction {
   readonly type = ShoppingActionTypes.ADD_ITEM_SUCCESS;
-
   constructor(public payload: ShoppingItem) { }
 }
 
 export class AddItemFailureAction implements ShoppingAction {
   readonly type = ShoppingActionTypes.ADD_ITEM_FAILURE;
-
   constructor(public payload: Error) { }
 }
 

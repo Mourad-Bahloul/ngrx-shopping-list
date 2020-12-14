@@ -1,27 +1,17 @@
 # NgrxShoppingList
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+This project illustrates how to use ngrx, with effects, to manage a shopping list that is saved in a remote server (a REST API).
 
-## Development server
+The REST API is served by a json-server that is using src/db.json data file
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Start servers
 
-## Code scaffolding
+Run `npm start` to concurrently run the json-server on port 3000 (`http://localhost:3000/`) and the shopping list application on port `http://localhost:4200/`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## About this project
 
-## Build
+The source code of this project is hosted on GitHub in the following link : `https://github.com/Mourad-Bahloul/ngrx-shopping-list`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+This project is based on youtube courses `https://www.youtube.com/watch?v=KZkRGm1xC_I` and `https://www.youtube.com/watch?v=KZkRGm1xC_I`
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project is newest than the original course and uses some additional tips, like using concurrent launch while running `npm start`

@@ -1,6 +1,16 @@
 {
-  "shopping": [{
-    "id": 1,
-    "name": "Pepsi"
-  }]
+  "shopping": [
+    {
+      "id": "c5230322-fc89-4b8f-863e-48ca93201267",
+      "name": "lemon"
+    },
+    {
+      "id": "48e64a68-c4a4-43eb-8697-7e73d85d8e24",
+      "name": "apple"
+    },
+    {
+      "id": "2d31333c-1fa6-4150-9513-4a2cbce55a47",
+      "name": "grenade"
+    }
+  ]
 }

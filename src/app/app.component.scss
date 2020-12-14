@@ -2,7 +2,7 @@
   text-align: center;
   color: white;
   display: flex;
-  height: 100vh;
+  /*height: 50vh;*/
   flex-direction: column;
   justify-content: center;
   margin: 0px;
@@ -11,7 +11,7 @@
 }
 
 #shopping-list {
-  box-shadow: 20px 20px 0px #222f3e;
+  box-shadow: 0px 0px 5px 5px #7f8996;
 }
 
 form {
@@ -29,18 +29,18 @@ form > input {
 
 form > button {
   border: 0px;
-  background: #10ac84;
+  background: #1061ac;
   color: white;
   outline: none;
 
   &:hover {
-    background: #006266;
+    background: #002966;
   }
 }
 
 ul {
   list-style: none;
-  background: #1dd1a1;
+  background: #1d56d1;
   padding: 10px 0px;
   margin: 0px;
 }
@@ -50,17 +50,18 @@ li {
 }
 
 h2 {
-  background: #10ac84;
+  background: #1047ac;
   padding: 10px 0px;
   margin: 0px;
 }
 
 button.delete {
-  background-color: white;
-  border: 2px solid red;
+  background-color: #d7e4ff;
+  vertical-align: middle;
+  border: 2px solid rgb(124, 6, 6);
   border-radius: 50%;
-  color: red;
+  color: #840000;
   font-weight: bold;
-  padding: 2px 6px;
+  padding: 2px 5px 1px;
   margin: 0 .5rem;
 }
